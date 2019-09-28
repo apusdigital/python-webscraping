@@ -3,7 +3,6 @@ from urllib.error import HTTPError
 from bs4 import BeautifulSoup
 import sys
 
-
 def getTitle(url):
     try:
         html = urlopen(url)
