@@ -1,9 +1,0 @@
-1570288572651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4yPdQBAkmuiw"
-*** You are running in headless mode.
-1570288573412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1570288573413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1570288573413	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1570288576293	Marionette	INFO	Listening on port 47021
-1570288576365	Marionette	WARN	TLS certificate errors will be ignored for this session
-1570288585912	Marionette	INFO	Stopped listening on port 47021
-[Parent 16744, Gecko_IOThread] WARNING: pipe error (66): Conexão fechada pela outra ponta: file /build/firefox-ZboYPC/firefox-66.0.3+linuxmint1+rosa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
