@@ -16,7 +16,7 @@ def getLinks(articleUrl):
     return bsObj.find("div", {"id":"bodyContent"}).findAll("a", href=re.compile("^(/wiki/)((?!:).)*$"))
 
 # Define o ponto de partida
-links = getLinks("/wiki/Web_scraping")
+links = getLinks("/wiki/Gremio")
 
 # Enquanto houverem links, mostra as URLs
 while len(links) > 0:
