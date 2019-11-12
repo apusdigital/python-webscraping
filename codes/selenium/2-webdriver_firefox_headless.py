@@ -9,6 +9,6 @@ options.add_argument('--headless')
 driver = webdriver.Firefox(executable_path=r'./geckodriver', options=options)
 
 driver.implicitly_wait(5)
-driver.get('https://www.instagram.com/gabrielheifel')
+driver.get('https://www.ifsul.edu.br')
 driver.get_screenshot_as_file('./ifsul.png')
 driver.close()
